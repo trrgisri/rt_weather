@@ -1,0 +1,8 @@
+# ============================================
+# ATEN USB-to-RS422/RS485 Adapter (067b:23a3)
+#   Device SN: CKDUb118D15/EEALb142T16
+# ============================================
+SUBSYSTEM=="tty", \
+  ATTRS{idVendor}=="067b", ATTRS{idProduct}=="23a3", ATTRS{serial}=="CKDUb118D15", \
+  GROUP="users", MODE="0666", \
+  SYMLINK+="ttyATEN485_A"
