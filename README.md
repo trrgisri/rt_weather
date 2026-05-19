@@ -71,3 +71,7 @@ MIT license
 ## Maintainer
 
 Yasushi Sumi (<y.sumi@aist.go.jp>)
+
+## Acknowledgment
+
+This work was supported by JSPS KAKENHI Grant Number JP23K26345.
